@@ -11,8 +11,10 @@ with open("class_record.txt", "r") as class_record:
         gwa = float(gwa)
 
 # find the highest gwa
-    if gwa > highest_gwa:
-        highest_gwa = gwa
-        highest_gwa_student = student_name
-        
+        if gwa > highest_gwa:
+            highest_gwa = gwa
+            highest_gwa_student = student_name
+
 # print the name and gwa of the student with the highest gwa
+print("Student with the highest GWA:", highest_gwa_student)
+print("GWA:", highest_gwa)
