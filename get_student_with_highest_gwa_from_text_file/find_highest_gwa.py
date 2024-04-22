@@ -19,6 +19,10 @@ with open("class_record.txt", "r") as class_record:
         elif gwa == highest_gwa:
             list_of_student_with_highest_gwa.append(student_name)
 
+# Bold to emphasize
+bold_start = "\033[1m" + "\033[95m"
+bold_end = "\033[0;0m"
+
 # print the name and gwa of the student with the highest gwa
-print("Student/s with the highest GWA:", list_of_student_with_highest_gwa)
-print("GWA:", highest_gwa)
+print("\n" + bold_start + "Student/s with the highest GWA:" + bold_end, list_of_student_with_highest_gwa)
+print(bold_start +"GWA:" + bold_end, highest_gwa, "\n")
