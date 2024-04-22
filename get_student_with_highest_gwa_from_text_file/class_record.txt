@@ -6,7 +6,7 @@ student_5, 88.8
 student_6, 96.4
 student_7, 92.0
 student_8, 94.9
-student_9, 97.2
+student_9, 97.5
 student_10, 94.1
 student_11, 86.4
 student_12, 84.5
