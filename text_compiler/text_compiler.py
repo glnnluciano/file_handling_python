@@ -10,8 +10,13 @@ if user_input.lower() == "y":
 elif user_input.lower() == "n":
 
     # input if want to read, overwrite, close mylife.txt file (r = read, s = startover, c = close)
-    read_stsrt_over_close = input("Do you want to read (r), startover (s), or close (c) mylife.txt file?:")
+    read_start_over_close = input("Do you want to read (r), startover (s), or close (c) mylife.txt file?:")
 
-        # if r, open mylife.txt file, read
+    # if r, open mylife.txt file, read
+    if read_start_over_close.lower() == "r":
+        with open("mylife.txt", "r") as my_life:
+            for line in my_life:
+                print(line.strip())
+        
         # if s, open mylife.txt file, overwrite
         # if c, break
