@@ -29,6 +29,11 @@ with open("integers.txt", "r") as integer_file:
 user_input = input("Do you want to read the text files? (s = squared even, c = cubed odd, e = exit): ")
 
     # if s, read double.txt and print
+if user_input.lower() == "s":
+    with open("double.txt", "r") as double_text:
+        for line in double_text:
+            print(line.strip())
+
     # if c, read triple.txt and print
     # if e, close
 # END OF PROGRAM
