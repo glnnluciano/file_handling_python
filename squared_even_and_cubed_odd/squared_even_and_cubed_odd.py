@@ -16,5 +16,10 @@ with open("integers.txt", "r") as integer_file:
                 even_file.write(str(line) + "\n")
 
 # if number is odd, cube it and append in triple.txt
+        else:
+
+            # cube the line
+            line = line**3
+                       
     # open and append line to triple.txt 
 # END OF PROGRAM
