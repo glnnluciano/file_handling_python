@@ -12,6 +12,9 @@ with open("integers.txt", "r") as integer_file:
             line = line**2
 
     # open and append line to double.txt
+            with open("double.txt", "a") as even_file:
+                even_file.write(str(line) + "\n")
+
 # if number is odd, cube it and append in triple.txt
     # open and append line to triple.txt 
 # END OF PROGRAM
