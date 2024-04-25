@@ -20,6 +20,9 @@ with open("integers.txt", "r") as integer_file:
 
             # cube the line
             line = line**3
-                       
+
     # open and append line to triple.txt 
+            with open("triple.txt", "a") as odd_file:
+                odd_file.write(str(line) + "\n")
+
 # END OF PROGRAM
