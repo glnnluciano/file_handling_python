@@ -25,4 +25,8 @@ with open("integers.txt", "r") as integer_file:
             with open("triple.txt", "a") as odd_file:
                 odd_file.write(str(line) + "\n")
 
+# if want to print text files (s = squared even, c = cubed odd, e = exit)
+    # if s, read double.txt and print
+    # if c, read triple.txt and print
+    # if e, close
 # END OF PROGRAM
